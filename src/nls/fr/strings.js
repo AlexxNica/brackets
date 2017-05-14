@@ -217,6 +217,7 @@ define({
 	"FILTER_FILE_COUNT_ALL": "Autorise les {0} fichiers {1}",
 
     // Quick Edit
+<<<<<<< HEAD
 	"ERROR_QUICK_EDIT_PROVIDER_NOT_FOUND": "Fonction Édition rapide non disponible pour la position actuelle du curseur",
 	"ERROR_CSSQUICKEDIT_BETWEENCLASSES": "Édition rapide CSS : placez le curseur sur un seul nom de classe",
 	"ERROR_CSSQUICKEDIT_CLASSNOTFOUND": "Édition rapide CSS : attribut de classe incomplet",
@@ -224,6 +225,15 @@ define({
 	"ERROR_CSSQUICKEDIT_UNSUPPORTEDATTR": "Édition rapide CSS : placez le curseur dans la balise, la classe ou l’ID",
 	"ERROR_TIMINGQUICKEDIT_INVALIDSYNTAX": "Édition rapide des fonctions de temporisation CSS : syntaxe incorrecte",
 	"ERROR_JSQUICKEDIT_FUNCTIONNOTFOUND": "Édition rapide JS : placez le curseur dans le nom de fonction",
+=======
+	"ERROR_QUICK_EDIT_PROVIDER_NOT_FOUND": "Fonction Edition rapide non disponible pour la position actuelle du curseur",
+	"ERROR_CSSQUICKEDIT_BETWEENCLASSES": "Edition rapide CSS : placez le curseur sur un seul nom de classe",
+	"ERROR_CSSQUICKEDIT_CLASSNOTFOUND": "Edition rapide CSS : attribut de classe incomplet",
+	"ERROR_CSSQUICKEDIT_IDNOTFOUND": "Edition rapide CSS : attribut d’ID incomplet",
+	"ERROR_CSSQUICKEDIT_UNSUPPORTEDATTR": "Edition rapide CSS : placez le curseur dans la balise, la classe ou l’ID",
+	"ERROR_TIMINGQUICKEDIT_INVALIDSYNTAX": "Edition rapide des fonctions de temporisation CSS : syntaxe incorrecte",
+	"ERROR_JSQUICKEDIT_FUNCTIONNOTFOUND": "Edition rapide JS : placez le curseur dans le nom de fonction",
+>>>>>>> 189f6d39abf1651454feabd8ed01d371eadf2628
 
     // Quick Docs
 	"ERROR_QUICK_DOCS_PROVIDER_NOT_FOUND": "Fonction Documentation rapide non disponible pour la position actuelle du curseur",
@@ -407,7 +417,7 @@ define({
 	"CMD_GOTO_LINE": "Atteindre la ligne",
 	"CMD_GOTO_DEFINITION": "Accès rapide à la définition",
 	"CMD_GOTO_FIRST_PROBLEM": "Accéder au premier problème",
-	"CMD_TOGGLE_QUICK_EDIT": "Édition rapide",
+	"CMD_TOGGLE_QUICK_EDIT": "Edition rapide",
 	"CMD_TOGGLE_QUICK_DOCS": "Documentation rapide",
 	"CMD_QUICK_EDIT_PREV_MATCH": "Correspondance précédente",
 	"CMD_QUICK_EDIT_NEXT_MATCH": "Correspondance suivante",
@@ -434,7 +444,7 @@ define({
 	"CMD_HEALTH_DATA_STATISTICS": "Rapport d’intégrité",
 	"CMD_HOMEPAGE": "Page d’accueil de {APP_TITLE}",
 	"CMD_TWITTER": "{TWITTER_NAME} sur Twitter",
-	"CMD_ABOUT": "À propos de {APP_TITLE}",
+	"CMD_ABOUT": "A propos de {APP_TITLE}",
 	"CMD_OPEN_PREFERENCES": "Ouvrir le fichier de préférences",
 	"CMD_OPEN_KEYMAP": "Ouvrir le mappage de touches utilisateur",
 
@@ -446,7 +456,7 @@ define({
 	"KEEP_CHANGES_IN_EDITOR": "Conserver les modifications dans l’éditeur",
 	"CLOSE_DONT_SAVE": "Fermer (sans enregistrer)",
 	"RELAUNCH_CHROME": "Relancer Chrome",
-	"ABOUT": "À propos",
+	"ABOUT": "A propos",
 	"CLOSE": "Fermer",
 	"ABOUT_TEXT_LINE1": "Version {VERSION_MAJOR}.{VERSION_MINOR} {BUILD_TYPE} {VERSION}",
 	"ABOUT_TEXT_BUILD_TIMESTAMP": "Horodatage de la version : ",

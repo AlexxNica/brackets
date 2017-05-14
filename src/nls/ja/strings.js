@@ -796,5 +796,9 @@ define({
 	"DESCRIPTION_PURE_CODING_SURFACE": "{APP_NAME} でコードのみモードを有効にし、その他すべての UI エレメントを非表示にするには true",
 	"DESCRIPTION_INDENT_LINE_COMMENT": "行コメントのインデントを有効にするには true",
 	"DESCRIPTION_RECENT_FILES_NAV": "最近使用したファイルのナビゲーションを有効化/無効化",
+<<<<<<< HEAD
 	"DESCRIPTION_LIVEDEV_WEBSOCKET_PORT": "ライブプレビューで WebSocket サーバーが実行されるポート"
+=======
+	"DESCRIPTION_LIVEDEV_WEBSOCKET_PORT": "WebSocket サーバーがライブプレビューで実行するポート"
+>>>>>>> 189f6d39abf1651454feabd8ed01d371eadf2628
 });
