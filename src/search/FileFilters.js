@@ -37,8 +37,14 @@ define(function (require, exports, module) {
         PreferencesManager = require("preferences/PreferencesManager"),
         FindUtils          = require("search/FindUtils"),
         EditFilterTemplate = require("text!htmlContent/edit-filter-dialog.html"),
+<<<<<<< HEAD
         FilterNameTemplate = require("text!htmlContent/filter-name.html");
 
+=======
+        FilterNameTemplate = require("text!htmlContent/filter-name.html"),
+        FindUtils          = require("search/FindUtils");
+  
+>>>>>>> c753cec14c6875c8596e059ab77f4b43b1053130
     /**
      * Constant: first filter index in the filter dropdown list
      * @type {number}
@@ -292,7 +298,11 @@ define(function (require, exports, module) {
             return !re.test(f.fullPath);
         });
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> c753cec14c6875c8596e059ab77f4b43b1053130
     /**
      * Returns a copy of 'file path' strings that match any of the exclusion globs in the filter.
      *
@@ -311,7 +321,11 @@ define(function (require, exports, module) {
         });
     }
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> c753cec14c6875c8596e059ab77f4b43b1053130
     /**
      * Opens a dialog box to edit the given filter. When editing is finished, the value of getActiveFilter() changes to
      * reflect the edits. If the dialog was canceled, the preference is left unchanged.
